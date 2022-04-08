@@ -36,8 +36,10 @@ def main():
 
         if prediction == 0:
             prediction = 'Not Diabetic'
-        else:
+        elif prediction == 1:
             prediction = 'Diabetic'
+        else:
+            prediction = ''
 
         
     else:
