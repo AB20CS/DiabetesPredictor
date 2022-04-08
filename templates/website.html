@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Diabetes Predictor</title>
+    </head>
+
+    <h1 style="font-family:Trebuchet MS;">Diabetes Predictor</h1>
+    <p style="font-family:Trebuchet MS;">Please enter the patient's information below to predict whether the patient is diabetic.</p>
+    
+    <body>
+        <form name="form", method="POST", style="font-family:Trebuchet MS; text-align: left;">
+            <br>
+            Glucose: <input type="number" name="Glucose", placeholder="Glucose (mg/dL)" required/>
+            <br><br>
+            Blood Pressure: <input type="number" name="BloodPressure", placeholder="Diastolic b.p. (mm Hg)" required/>
+            <br><br>
+            Skin Thickness: <input type="number" name="SkinThickness", placeholder="Skin thickness (mm)" required/>
+            <br><br>
+            Insulin: <input type="number" name="Insulin", placeholder="Insulin (mu U/mL)" required/>
+            <br><br>
+            BMI: <input type="number" step="0.1" name="BMI", placeholder="Body Mass Index" required/>
+            <br><br>
+            Diabetes Pedigree Function: <input type="number" step="0.001" name="DiabetesPedigreeFunction", placeholder="Diabetes Pedigree" required/>
+            <br><br>
+            Age: <input type="number" name="Age", placeholder="Age (years)" required/>
+            <br><br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="font-family:Trebuchet MS; text-align: left;">{{ output }}</p>
+    </body>
+
+    
+</html>
