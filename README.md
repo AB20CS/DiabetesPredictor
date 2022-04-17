@@ -1,5 +1,5 @@
 # Diabetes Predictor
-A machine learning web application that could be used as a tool to predict whether a patient has diabetes, based on glucose levels, diastolic blood pressure, triceps skin fold thickness, serum insulin levels, BMI, diabates pedigree function and age.
+A machine learning web application that could be used as a tool to predict whether a patient has diabetes, based on glucose levels, diastolic blood pressure, triceps skin fold thickness, serum insulin levels, BMI, diabetes pedigree function and age.
 
 This app was developed using Scikit-Learn and Flask. The ML model was trained with the [Diabetes Dataset from Kaggle](https://www.kaggle.com/datasets/mathchi/diabetes-data-set).
 
